@@ -1,0 +1,40 @@
+fieldLayouts:
+  6ab2cbdf-cb4b-4b3d-b826-e28c76474d8f:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: sketches
+name: Sketches
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    hasUrls: true
+    template: null
+    uriFormat: 'sketches/{slug}'
+structure:
+  maxLevels: null
+  uid: 3763488d-3d02-4cef-9407-32d3b2d13842

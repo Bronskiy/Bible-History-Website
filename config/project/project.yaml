@@ -1,12 +1,18 @@
-dateModified: 1600155956
+dateModified: 1603121368
 email:
   fromEmail: nikolay@networklocal.net
   fromName: 'Bible History'
   transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.2
 system:
   edition: solo
-  live: true
+  live: false
   name: 'Bible History'
+  retryDuration: null
   schemaVersion: 3.5.13
   timeZone: America/Los_Angeles
 users:

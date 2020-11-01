@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 3d959c78-a072-4637-8649-1a437491f2d7
+handle: linksUrl
+instructions: ''
+name: 'Links URL'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

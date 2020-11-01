@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 3d959c78-a072-4637-8649-1a437491f2d7
+handle: linksDescription
+instructions: ''
+name: 'Links Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

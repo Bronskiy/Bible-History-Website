@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 279777fd-240d-43fb-b473-916f46e745a0
+handle: categoryDescription
+instructions: ''
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

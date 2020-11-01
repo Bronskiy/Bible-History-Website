@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: topMenu
+name: 'Top Menu'
+propagationMethod: all
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 2
+  uid: df6aa87d-c0b5-44d5-9eed-8dbacd0b6a1a
+type: structure

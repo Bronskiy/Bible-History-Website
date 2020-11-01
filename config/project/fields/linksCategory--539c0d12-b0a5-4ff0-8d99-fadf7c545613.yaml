@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 3d959c78-a072-4637-8649-1a437491f2d7
+handle: linksCategory
+instructions: ''
+name: 'Links Category'
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: 'group:ddd4dca9-f054-4a4c-97f3-fe36b3f41629'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories
