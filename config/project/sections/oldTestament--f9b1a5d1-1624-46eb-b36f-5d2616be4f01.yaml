@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: oldTestament
+name: 'Old Testament'
+propagationMethod: all
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    enabledByDefault: true
+    hasUrls: true
+    template: old-testament/_entry
+    uriFormat: 'old-testament/{slug}'
+type: channel

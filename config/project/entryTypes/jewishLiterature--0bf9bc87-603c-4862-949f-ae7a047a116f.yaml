@@ -1,0 +1,38 @@
+fieldLayouts:
+  c8f3a99b-d72c-4f5c-b6c5-a34a09b8913a:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: jewishLiterature
+hasTitleField: true
+name: 'Jewish Literature'
+section: 2d898d86-a72c-439e-814c-5fbbf54234d6
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

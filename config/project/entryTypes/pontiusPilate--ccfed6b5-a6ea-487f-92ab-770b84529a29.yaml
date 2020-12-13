@@ -1,0 +1,38 @@
+fieldLayouts:
+  3a6148d0-67dd-4b57-96d6-0b6980f19e16:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: pontiusPilate
+hasTitleField: true
+name: 'Pontius Pilate'
+section: b861e1dd-38c5-471d-8bbf-c110ffc108ec
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

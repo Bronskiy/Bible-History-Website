@@ -1,0 +1,28 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% include "_includes/_sidebar" %}
+<div class="col-lg-9 col-md-9 order-1 order-md-2">
+  <div class="row">
+    <div class="col-lg-9 col-md-12">
+      <div class="latest-post mb-50">
+        <div class="widget-header position-relative mb-30">
+          <div class="row">
+            <div class="col-12">
+              <h4 class="widget-title mb-0">{{ entry.title }}</h4>
+            </div>
+          </div>
+        </div>
+        <div class="loop-list-style-1">
+          <article class="first-post p-10 mb-30">
+            <div class="pr-10 pl-10">
+              {{ entry.commonPagesBody }}
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    {% include "_includes/_sidebar_right" %}
+  </div>
+</div>
+{% endblock %}

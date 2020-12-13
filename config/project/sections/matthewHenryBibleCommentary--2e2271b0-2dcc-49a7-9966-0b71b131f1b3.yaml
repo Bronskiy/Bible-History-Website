@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: matthewHenryBibleCommentary
+name: 'Matthew Henry Bible Commentary'
+propagationMethod: all
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'matthew/{slug}'
+type: channel

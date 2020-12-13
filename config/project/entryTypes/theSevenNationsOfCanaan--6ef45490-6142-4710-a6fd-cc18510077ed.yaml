@@ -1,0 +1,38 @@
+fieldLayouts:
+  c66f39b8-c1d2-4a75-8666-d5989babf27c:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: theSevenNationsOfCanaan
+hasTitleField: true
+name: 'The Seven Nations of Canaan'
+section: 2a82886d-5924-43c6-95ce-7e6d089670bd
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

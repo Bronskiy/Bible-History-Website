@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: herodsTemple
+name: 'Herod''s Temple'
+propagationMethod: all
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    enabledByDefault: true
+    hasUrls: true
+    template: common_pages/_entry
+    uriFormat: 'jewishtemple/{slug}'
+type: channel

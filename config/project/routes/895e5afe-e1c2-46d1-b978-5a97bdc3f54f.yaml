@@ -1,0 +1,9 @@
+siteUid: null
+sortOrder: 5
+template: dictionaries/_alphabet_index
+uriParts:
+  - kjv/
+  -
+    - '*'
+    - '[^\/]+'
+uriPattern: 'kjv/<any:[^\/]+>'

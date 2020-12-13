@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 52bed830-b7aa-4b77-b4d5-e6f665579542
+handle: studyBibleVerseChapter
+instructions: ''
+name: 'study bible verse chapter'
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: false
+  source: 'group:2c446e02-0d6f-4b75-8784-47af3c50b847'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

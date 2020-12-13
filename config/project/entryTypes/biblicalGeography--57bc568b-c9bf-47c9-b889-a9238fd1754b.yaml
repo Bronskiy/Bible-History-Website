@@ -1,0 +1,38 @@
+fieldLayouts:
+  aae8ad03-c2aa-49f7-a0d5-49bb2d3cd9a0:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: biblicalGeography
+hasTitleField: true
+name: 'Biblical Geography'
+section: 149805a3-fdd8-47bf-b9b7-768abfdb10e9
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

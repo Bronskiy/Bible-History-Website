@@ -1,0 +1,38 @@
+fieldLayouts:
+  9f752b27-5b42-4ae2-a4df-85ba8b80f073:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: imagesFromThePast
+hasTitleField: true
+name: 'Images From The Past'
+section: b2006db5-ad57-4f38-ad79-c2d25a14a5fa
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

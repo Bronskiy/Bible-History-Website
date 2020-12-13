@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 838bb970-79e3-419b-b223-a47ccd063353
+handle: newTestamentCategory
+instructions: ''
+name: Category
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: 'group:9f3002b6-4356-4470-8420-c19bf34ba55a'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

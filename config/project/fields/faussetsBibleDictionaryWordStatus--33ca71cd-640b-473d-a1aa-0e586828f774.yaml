@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: e1ab3d72-a60d-4fd7-97a0-8ae285d08e04
+handle: faussetsBibleDictionaryWordStatus
+instructions: ''
+name: 'Fausset''s Bible Dictionary Word Status'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

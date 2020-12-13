@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: eastonsBibleDictionarySingle
+name: 'Easton''s Bible Dictionary Single'
+propagationMethod: all
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    enabledByDefault: true
+    hasUrls: true
+    template: dictionaries/index
+    uriFormat: eastons
+type: single

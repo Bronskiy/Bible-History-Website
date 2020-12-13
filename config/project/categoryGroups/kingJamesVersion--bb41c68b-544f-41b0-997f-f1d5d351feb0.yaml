@@ -1,0 +1,40 @@
+fieldLayouts:
+  7683166c-a27e-48aa-909a-c180fffabea7:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: kingJamesVersion
+name: 'King James Version'
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    hasUrls: true
+    template: null
+    uriFormat: 'kjv/{slug}'
+structure:
+  maxLevels: null
+  uid: d10ddef8-5fe2-4a91-a577-ed2c66d703f7

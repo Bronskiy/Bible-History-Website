@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: newTestament
+name: 'New Testament'
+propagationMethod: all
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    enabledByDefault: true
+    hasUrls: true
+    template: new-testament/_entry
+    uriFormat: 'new-testament/{slug}'
+type: channel

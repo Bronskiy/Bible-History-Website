@@ -1,0 +1,38 @@
+fieldLayouts:
+  43c6a3ff-0abb-41d4-818c-7552617f96a4:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: matthewHenryBibleCommentary
+hasTitleField: true
+name: 'Matthew Henry Bible Commentary'
+section: 2e2271b0-2dcc-49a7-9966-0b71b131f1b3
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

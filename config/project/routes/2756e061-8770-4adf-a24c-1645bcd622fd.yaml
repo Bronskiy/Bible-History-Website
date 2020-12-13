@@ -1,0 +1,9 @@
+siteUid: null
+sortOrder: 4
+template: dictionaries/_alphabet_index
+uriParts:
+  - isbe/
+  -
+    - '*'
+    - '[^\/]+'
+uriPattern: 'isbe/<any:[^\/]+>'

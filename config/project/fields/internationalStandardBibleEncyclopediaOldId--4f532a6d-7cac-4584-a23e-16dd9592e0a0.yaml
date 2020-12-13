@@ -1,0 +1,19 @@
+contentColumnType: integer(10)
+fieldGroup: a8663b45-24fa-4dfc-8337-23f5f2fc665b
+handle: internationalStandardBibleEncyclopediaOldId
+instructions: ''
+name: 'International Standard Bible Encyclopedia Old ID'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: '0'
+  prefix: ''
+  previewCurrency: ''
+  previewFormat: none
+  size: null
+  suffix: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

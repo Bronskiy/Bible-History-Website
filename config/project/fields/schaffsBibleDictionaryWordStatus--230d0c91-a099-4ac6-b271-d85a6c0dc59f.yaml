@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 89682d2c-7294-4f88-8e86-6011e88c2388
+handle: schaffsBibleDictionaryWordStatus
+instructions: ''
+name: 'Schaff''s Bible Dictionary Word Status'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

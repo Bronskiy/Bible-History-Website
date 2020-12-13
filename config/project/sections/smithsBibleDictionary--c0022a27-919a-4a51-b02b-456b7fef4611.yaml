@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: smithsBibleDictionary
+name: 'Smith''s Bible Dictionary'
+propagationMethod: all
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    enabledByDefault: true
+    hasUrls: true
+    template: dictionaries/_entry
+    uriFormat: 'smiths/{slug[:1]}/{slug}'
+type: channel

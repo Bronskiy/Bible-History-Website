@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 6b74c67e-f7b4-462e-b79c-32992bcc2875
+handle: navesWord
+instructions: ''
+name: Word
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: 'group:e9093d01-8a26-4f6b-afb7-f28459974703'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

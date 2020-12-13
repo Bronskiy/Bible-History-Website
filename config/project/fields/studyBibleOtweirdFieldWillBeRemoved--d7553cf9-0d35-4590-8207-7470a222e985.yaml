@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 52bed830-b7aa-4b77-b4d5-e6f665579542
+handle: studyBibleOtweirdFieldWillBeRemoved
+instructions: ''
+name: 'study bible ot(weird field will be removed)'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

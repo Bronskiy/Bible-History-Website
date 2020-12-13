@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: theDestructionOfIsrael
+name: 'The Destruction of Israel'
+propagationMethod: all
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    enabledByDefault: true
+    hasUrls: true
+    template: common_pages/_entry
+    uriFormat: 'destruction_of_israel/{slug}'
+type: channel

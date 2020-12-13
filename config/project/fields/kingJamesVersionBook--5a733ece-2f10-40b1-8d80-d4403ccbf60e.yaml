@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 0581820f-d1ac-4307-876b-a9496846209e
+handle: kingJamesVersionBook
+instructions: ''
+name: Book
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: 'Add a Book'
+  showSiteMenu: true
+  source: 'group:bb41c68b-544f-41b0-997f-f1d5d351feb0'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

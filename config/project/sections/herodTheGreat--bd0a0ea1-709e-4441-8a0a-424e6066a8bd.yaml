@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: herodTheGreat
+name: 'Herod the Great'
+propagationMethod: all
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    enabledByDefault: true
+    hasUrls: true
+    template: common_pages/_entry
+    uriFormat: 'herod_the_great/{slug}'
+type: channel

@@ -1,0 +1,65 @@
+{% extends "_layout" %}
+
+{% block content %}
+<div class="entry-header entry-header-1 mb-30 mt-50">
+  <h1 class="post-title mb-30">{{ entry.title }}</h1>
+</div>
+<div class="row mb-50">
+  <div class="col-lg-8 col-md-12">
+    <div class="single-social-share single-sidebar-share mt-30">
+      <ul>
+        <li><a class="social-icon facebook-icon text-xs-center" target="_blank" href="#"><i class="ti-facebook"></i></a></li>
+        <li><a class="social-icon twitter-icon text-xs-center" target="_blank" href="#"><i class="ti-twitter-alt"></i></a></li>
+        <li><a class="social-icon pinterest-icon text-xs-center" target="_blank" href="#"><i class="ti-pinterest"></i></a></li>
+        <li><a class="social-icon instagram-icon text-xs-center" target="_blank" href="#"><i class="ti-instagram"></i></a></li>
+        <li><a class="social-icon linkedin-icon text-xs-center" target="_blank" href="#"><i class="ti-linkedin"></i></a></li>
+        <li><a class="social-icon email-icon text-xs-center" target="_blank" href="#"><i class="ti-email"></i></a></li>
+      </ul>
+    </div>
+    <div class="bt-1 border-color-1 mb-10"></div>
+    {% include "dictionaries/_alphabet_links" %}
+    <div class="bt-1 border-color-1 mt-10 mb-30"></div>
+    <div class="entry-main-content">
+
+      {{ entry.commonPagesBody }}
+    </div>
+    <div class="entry-bottom mt-50 mb-30">
+      <div class="overflow-hidden mt-30">
+        <div class="single-social-share float-right">
+          <ul class="d-inline-block list-inline">
+            <li class="list-inline-item"><span class="font-small text-muted"><i class="ti-sharethis mr-5"></i>Share: </span></li>
+            <li class="list-inline-item"><a class="social-icon facebook-icon text-xs-center" target="_blank" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item"><a class="social-icon twitter-icon text-xs-center" target="_blank" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item"><a class="social-icon pinterest-icon text-xs-center" target="_blank" href="#"><i class="ti-pinterest"></i></a></li>
+            <li class="list-inline-item"><a class="social-icon instagram-icon text-xs-center" target="_blank" href="#"><i class="ti-instagram"></i></a></li>
+            <li class="list-inline-item"><a class="social-icon linkedin-icon text-xs-center" target="_blank" href="#"><i class="ti-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="related-posts">
+      <h3 class="mb-30">Related posts</h3>
+
+        <div class="post-aside-style-2">
+          <ul class="list-post">
+            {% for row in entry.commonPagesRelatedEntries %}
+            <li class="mb-10 wow fadeIn animated">
+              <div class="d-flex">
+                <div class="post-content media-body">
+                  <h6 class="post-title mb-10 text-limit-2-row"><a href="{{ row.url }}">{{ row.title }}</a></h6>
+                </div>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+    </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-12 sidebar-right sticky-sidebar">
+  <div class="pl-lg-50">
+
+  </div>
+</div>
+{% endblock %}

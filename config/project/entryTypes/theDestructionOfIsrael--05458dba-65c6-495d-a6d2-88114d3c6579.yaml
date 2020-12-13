@@ -1,0 +1,38 @@
+fieldLayouts:
+  48334505-0e2b-4178-96c3-3ee475d6eac1:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: theDestructionOfIsrael
+hasTitleField: true
+name: 'The Destruction of Israel'
+section: 68eb34c4-d891-4fac-b659-ba2c50ccfd08
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

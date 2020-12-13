@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 166828db-4f7f-49fd-b902-b0182023c103
+handle: oldTestamentCategory
+instructions: ''
+name: Category
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: 'group:2c1b4996-fa7d-404a-86a0-86c85aa2efef'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

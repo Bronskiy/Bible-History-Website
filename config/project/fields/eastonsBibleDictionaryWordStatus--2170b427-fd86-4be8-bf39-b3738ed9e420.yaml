@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 3b8c4a76-5cb9-4076-a28e-19ad6bf3aa62
+handle: eastonsBibleDictionaryWordStatus
+instructions: ''
+name: 'Easton''s Bible Dictionary Word Status'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

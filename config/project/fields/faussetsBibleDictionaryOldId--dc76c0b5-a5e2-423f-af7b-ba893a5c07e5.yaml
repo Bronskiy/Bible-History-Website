@@ -1,0 +1,19 @@
+contentColumnType: integer(10)
+fieldGroup: e1ab3d72-a60d-4fd7-97a0-8ae285d08e04
+handle: faussetsBibleDictionaryOldId
+instructions: ''
+name: 'Fausset''s Bible Dictionary Old Id'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: '0'
+  prefix: ''
+  previewCurrency: ''
+  previewFormat: none
+  size: null
+  suffix: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

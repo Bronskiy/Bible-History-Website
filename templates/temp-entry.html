@@ -1,53 +1,94 @@
 {% extends "_layout" %}
 
 {% block content %}
-<main class="position-relative">
-  <div class="container">
-    <div class="entry-header entry-header-1 mb-30 mt-50">
-      <div class="entry-meta meta-0 font-small mb-30">
-        <a href="#"><span class="post-cat bg-success color-white">Global News</span></a>
-      </div>
-      <h1 class="post-title mb-30">
-        After a Caribbean Hurricane, the Battle Is Where, or Even Whether, to Rebuild
-      </h1>
-    </div>
-    <div class="row mb-50">
-      <div class="col-lg-8 col-md-12">
-        <div class="entry-main-content">
-          <h2>Design is future</h2>
-          <hr class="wp-block-separator is-style-wide">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="related-posts">
-          <h3 class="mb-30">Related posts</h3>
+{% include "_includes/_sidebar" %}
+<div class="row">
+<div class="col-lg-9 col-md-9 order-1 order-md-2">
+  <div class="row">
+    <div class="col-lg-9 col-md-12">
+      <div class="latest-post mb-50">
+        <div class="widget-header position-relative mb-30">
           <div class="row">
-            <article class="col-lg-4">
-              <div class="background-white border-radius-10 p-10 mb-30">
-                <div class="post-thumb d-flex mb-15 border-radius-15 img-hover-scale">
-                  <a href="#">
-                    <img class="border-radius-15" src="assets/imgs/news-2.jpg" alt="">
-                  </a>
-                </div>
-                <div class="pl-10 pr-10">
-                  <div class="entry-meta mb-15 mt-10">
-                    <a class="entry-meta meta-2" href="#"><span class="post-in text-primary font-x-small">Politic</span></a>
-                  </div>
-                  <h5 class="post-title mb-15">
-                    <span class="post-format-icon">
-                      <ion-icon name="image-outline" role="img" class="md hydrated" aria-label="image outline"></ion-icon>
-                    </span>
-                    <a href="#">The litigants on the screen are not actors</a></h5>
-                  </div>
-                </div>
-              </article>
+            <div class="col-12">
+              <h4 class="widget-title mb-0">Latest Posts</h4>
             </div>
           </div>
         </div>
-        {% include "_includes/_sidebar_right" %}
+        <div class="loop-list-style-1">
+          <article class="first-post p-10 background-white mb-30 wow fadeIn animated">
+            <div class="img-hover-slide mb-30 position-relative overflow-hidden">
+              <span class="top-right-icon bg-dark"><i class="mdi mdi-flash-on"></i></span>
+              <a href="#">
+                <img src="/assets/temp_img/news-21.jpg" alt="post-slider">
+              </a>
+            </div>
+            <div class="pr-10 pl-10">
+
+              <h4 class="post-title mb-20">
+
+                <a href="#">Team Bitbose
+                   geared up to attend Blockchain World
+                   Conference ’18 in Atlantic City, New Jersey</a>
+                 </h4>
+                 <p class="post-exerpt font-medium text-muted mb-30">These people
+                   envy me for having a lifestyle they don’t have,
+                   but the truth is, sometimes I envy their lifestyle instead.
+                   Struggling to sell one multi-million dollar home currently.</p>
+
+              </div>
+            </article>
+            <article class="first-post p-10 background-white mb-30 wow fadeIn animated">
+
+              <div class="pr-10 pl-10">
+
+                <h4 class="post-title mb-20">
+
+                  <a href="#">Team Bitbose
+                     geared up to attend Blockchain World
+                     Conference ’18 in Atlantic City, New Jersey</a>
+                   </h4>
+                   <p class="post-exerpt font-medium text-muted mb-30">These people
+                     envy me for having a lifestyle they don’t have,
+                     but the truth is, sometimes I envy their lifestyle instead.
+                     Struggling to sell one multi-million dollar home currently.</p>
+
+                </div>
+              </article>
+              <article class="first-post p-10 background-white mb-30 wow fadeIn animated">
+
+                <div class="pr-10 pl-10">
+
+                  <h4 class="post-title mb-20">
+
+                    <a href="#">Team Bitbose
+                       geared up to attend Blockchain World
+                       Conference ’18 in Atlantic City, New Jersey</a>
+                     </h4>
+                     <p class="post-exerpt font-medium text-muted mb-30">These people
+                       envy me for having a lifestyle they don’t have,
+                       but the truth is, sometimes I envy their lifestyle instead.
+                       Struggling to sell one multi-million dollar home currently.</p>
+
+                  </div>
+                </article>
+
+              </div>
+            </div>
+            <div class="pagination-area mb-30">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-start">
+                  <li class="page-item"><a class="page-link" href="#"><i class="ti-angle-left"></i></a></li>
+                  <li class="page-item active"><a class="page-link" href="#">01</a></li>
+                  <li class="page-item"><a class="page-link" href="#">02</a></li>
+                  <li class="page-item"><a class="page-link" href="#">03</a></li>
+                  <li class="page-item"><a class="page-link" href="#">04</a></li>
+                  <li class="page-item"><a class="page-link" href="#"><i class="ti-angle-right"></i></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          {% include "_includes/_sidebar_right" %}
+        </div>
       </div>
-    </main>
-    {% endblock %}
+      </div>
+      {% endblock %}

@@ -1,0 +1,9 @@
+siteUid: null
+sortOrder: 3
+template: dictionaries/_alphabet_index
+uriParts:
+  - hitchcock/
+  -
+    - '*'
+    - '[^\/]+'
+uriPattern: 'hitchcock/<any:[^\/]+>'

@@ -1,0 +1,40 @@
+{% extends "_layout" %}
+
+{% block content %}
+
+{% if craft.app.request.getSegment(2)|length > 1 %}
+  {% redirect 404 %}
+{% else %}
+  <h1>Letter test | {{ craft.app.request.getSegment(2) }}</h1>
+
+  {% set firstSegment = craft.app.request.getSegment(1) %}
+  {% set firstLetter = "title::" ~ craft.app.request.getSegment(2) ~ "*" %}
+
+  {% if firstSegment == "eastons" %}
+    {% set dictionaryQuery = craft.entries().section('eastonsBibleDictionary').search(firstLetter) %}
+  {% elseif firstSegment == "smiths" %}
+    {% set dictionaryQuery = craft.entries().section('smithsBibleDictionary').search(firstLetter) %}
+  {% elseif firstSegment == "hitchcock" %}
+    {% set dictionaryQuery = craft.entries().section('hitchcocksBibleDictionary').search(firstLetter) %}
+  {% elseif firstSegment == "faussets" %}
+    {% set dictionaryQuery = craft.entries().section('faussetsBibleDictionary').search(firstLetter) %}
+  {% elseif firstSegment == "isbe" %}
+    {% set dictionaryQuery = craft.entries().section('internationalStandardBibleEncyclopediaIsbe').search(firstLetter) %}
+  {% elseif firstSegment == "kjv" %}
+    {% set dictionaryQuery = craft.entries().section('kingJamesVersionOfTheBible').search(firstLetter) %}
+  {% elseif firstSegment == "naves" %}
+    {% set dictionaryQuery = craft.entries().section('navesTopicalBible').search(firstLetter) %}
+  {% elseif firstSegment == "schaffs" %}
+    {% set dictionaryQuery = craft.entries().section('schaffsBibleDictionary').search(firstLetter) %}
+  {% else %}
+    {% redirect 404 %}
+  {% endif %}
+
+<article>
+{% for entry in dictionaryQuery %}
+        <p><a href="{{ entry.url }}">{{ entry.title }}</a></p>
+{% endfor %}
+</article>
+
+{% endif %}
+{% endblock %}

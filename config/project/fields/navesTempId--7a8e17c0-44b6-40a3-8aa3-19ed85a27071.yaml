@@ -1,0 +1,19 @@
+contentColumnType: integer(10)
+fieldGroup: 6b74c67e-f7b4-462e-b79c-32992bcc2875
+handle: navesTempId
+instructions: ''
+name: naves_temp_id
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: '0'
+  prefix: ''
+  previewCurrency: ''
+  previewFormat: decimal
+  size: null
+  suffix: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

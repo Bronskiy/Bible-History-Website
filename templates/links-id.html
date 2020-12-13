@@ -1,0 +1,5 @@
+{% for entry in craft.entries()
+    .section('links').orderBy('linksOldId desc')
+    .all() %}
+{{ entry.linksOldId }}<br>
+{% endfor %}

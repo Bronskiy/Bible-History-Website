@@ -1,0 +1,9 @@
+siteUid: null
+sortOrder: 6
+template: dictionaries/_alphabet_index
+uriParts:
+  - naves/
+  -
+    - '*'
+    - '[^\/]+'
+uriPattern: 'naves/<any:[^\/]+>'

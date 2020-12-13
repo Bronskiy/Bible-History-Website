@@ -1,0 +1,19 @@
+contentColumnType: integer(10)
+fieldGroup: 89682d2c-7294-4f88-8e86-6011e88c2388
+handle: schaffsBibleDictionaryOldId
+instructions: ''
+name: 'Schaff''s Bible Dictionary Old Id'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: '0'
+  prefix: ''
+  previewCurrency: ''
+  previewFormat: none
+  size: null
+  suffix: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

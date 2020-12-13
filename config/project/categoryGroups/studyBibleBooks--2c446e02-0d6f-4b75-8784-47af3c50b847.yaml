@@ -1,0 +1,49 @@
+fieldLayouts:
+  dc8d7536-476e-4f17-b9e1-aecea3c3434a:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6c4499ad-20e1-416e-a00a-37251f4d8dd0
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: studyBibleBooks
+name: 'Study Bible Books'
+siteSettings:
+  fb333ff1-b85e-4828-a457-6cab943930a7:
+    hasUrls: true
+    template: null
+    uriFormat: 'study-bible-books/{slug}'
+structure:
+  maxLevels: 3
+  uid: 045d6c69-0dea-4330-b585-593587dadad0

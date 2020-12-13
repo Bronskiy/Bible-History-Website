@@ -1,0 +1,13 @@
+contentColumnType: boolean
+fieldGroup: 6b74c67e-f7b4-462e-b79c-32992bcc2875
+handle: navesForKids
+instructions: ''
+name: 'Naves For Kids'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

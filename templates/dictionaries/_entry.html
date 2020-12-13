@@ -1,0 +1,33 @@
+{% extends "_layout" %}
+
+{% block content %}
+<div class="entry-header entry-header-1 mb-30 mt-50">
+  <h1 class="post-title mb-30">{{ entry.title }}</h1>
+</div>
+<div class="row mb-50">
+  <div class="col-lg-8 col-md-12">
+    {% if entry.eastonsBibleDictionaryBody is defined %}
+      {{ entry.eastonsBibleDictionaryBody }}
+    {% elseif entry.faussetsBibleDictionaryBody is defined %}
+      {{ entry.faussetsBibleDictionaryBody }}
+    {% elseif entry.hitchcocksBibleDictionaryBody is defined %}
+      {{ entry.hitchcocksBibleDictionaryBody }}
+    {% elseif entry.internationalStandardBibleEncyclopediaBody is defined %}
+      {{ entry.internationalStandardBibleEncyclopediaBody }}
+    {% elseif entry.kingJamesVersionVerse is defined %}
+      {{ entry.kingJamesVersionVerse }}
+    {% elseif entry.schaffsBibleDictionaryBody is defined %}
+      {{ entry.schaffsBibleDictionaryBody }}
+    {% elseif entry.navesGloss is defined %}
+      {{ entry.navesGloss }}
+    {% elseif entry.smithsBibleDictionaryBody is defined %}
+      {{ entry.smithsBibleDictionaryBody }}
+    {% endif %}
+  </div>
+</div>
+<div class="col-lg-4 col-md-12 sidebar-right sticky-sidebar">
+  <div class="pl-lg-50">
+
+  </div>
+</div>
+{% endblock %}
